@@ -5,5 +5,4 @@ edition = "2021"
 description = "SwellOS TUI installer"
 
 [dependencies]
-clap = { version = "4", features = ["derive"] }
 dialoguer = "0.11"
