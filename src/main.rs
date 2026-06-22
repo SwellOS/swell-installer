@@ -142,7 +142,12 @@ fn main() {
 
     // Step 7: Select metapackages
     let metapackage_options = vec![
-        "kde-plasma           KDE Plasma desktop on Wayland",
+        "kde-plasma           KDE Plasma 6 desktop on Wayland",
+        "gnome                GNOME 47 desktop on Wayland",
+        "xfce4                XFCE 4.20 lightweight desktop",
+        "hyprland             Hyprland Wayland compositor (dynamic tiling)",
+        "i3                   i3 tiling window manager",
+        "windowmaker          WindowMaker window manager (NeXTSTEP-like)",
         "swell-dev            Development tools (GCC, LLVM, git, Python, Rust)",
         "swell-browser        Firefox browser (hardened build)",
         "swell-gaming         Gaming (Steam runtime, wine, DXVK)",
